@@ -1,0 +1,14 @@
+{
+  "name": "ostool-fleet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ostool (أسطول): bilingual (Arabic RTL / English) fleet maintenance management demo",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "dev": "node dev-server.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.18.1"
+  }
+}
